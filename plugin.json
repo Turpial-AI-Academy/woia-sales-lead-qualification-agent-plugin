@@ -1,0 +1,19 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "woia-sales-lead-qualification",
+  "version": "0.5.0",
+  "description": "WOIA Sales provider for evidence-backed lead qualification, configurable rubric scoring, explicit unknowns, fit/need/urgency assessment, and routing recommendations.",
+  "author": {
+    "name": "Turpial AI Academy",
+    "url": "https://github.com/Turpial-AI-Academy"
+  },
+  "homepage": "https://github.com/Turpial-AI-Academy/woia-sales-lead-qualification-agent-plugin",
+  "repository": "https://github.com/Turpial-AI-Academy/woia-sales-lead-qualification-agent-plugin",
+  "license": "MIT",
+  "keywords": [
+    "agent-plugin",
+    "woia",
+    "sales",
+    "sales-lead-qualification"
+  ]
+}

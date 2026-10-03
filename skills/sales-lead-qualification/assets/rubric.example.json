@@ -1,0 +1,22 @@
+{
+  "criteria": [
+    {
+      "id": "need",
+      "weight": 0.4,
+      "score": 1,
+      "evidence_ref": "customer:001#need"
+    },
+    {
+      "id": "timing",
+      "weight": 0.3,
+      "score": 0.5,
+      "evidence_ref": "customer:001#timing"
+    },
+    {
+      "id": "fit",
+      "weight": 0.3,
+      "score": null,
+      "evidence_ref": null
+    }
+  ]
+}
