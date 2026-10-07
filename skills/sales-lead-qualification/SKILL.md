@@ -4,7 +4,7 @@ description: Qualify or review a lead using observed customer evidence, configur
 license: MIT
 metadata:
   author: Turpial AI Academy
-  version: "0.5.0"
+  version: "0.5.1"
 ---
 
 # Sales Lead Qualification
@@ -13,7 +13,7 @@ Use for lead/customer fit, need, timing, urgency, constraints and routing.
 
 ## Evidence rules
 
-- Resolve the customer/lead through woia-customer-data when a shared record exists.
+- Resolve accepted subject/domain evidence from its semantic owner. Customer Data may supply a configured CRM projection; it is not mandatory or the identity master.
 - Distinguish customer-stated facts from inference.
 - Do not invent budget, urgency, authority, interest or purchase timing.
 - Unknown qualification fields remain unknown rather than being guessed.
@@ -36,3 +36,7 @@ Each criterion supplies a weight, score (0..1) and optional evidence_ref. The to
 ## Effects
 
 Qualification is read/analysis by default. It does not contact the lead or mutate pipeline state.
+
+## Scoped consumers
+
+Sales, Leasing, Customer Service and Supply Acquisition may evaluate within current subject/field/purpose grants. See [scoped qualification](references/scoped-qualification.md). Use the scoped helper with trusted host criteria and observations; never treat the offline scorer as retrieval authorization or competent acceptance.
