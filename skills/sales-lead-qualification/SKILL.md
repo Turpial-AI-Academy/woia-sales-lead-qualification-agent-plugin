@@ -4,7 +4,7 @@ description: Qualify or review a lead using observed customer evidence, configur
 license: MIT
 metadata:
   author: Turpial AI Academy
-  version: "0.5.1"
+  version: "0.5.6"
 ---
 
 # Sales Lead Qualification
