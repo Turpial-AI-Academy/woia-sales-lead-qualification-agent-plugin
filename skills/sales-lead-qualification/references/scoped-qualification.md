@@ -22,6 +22,4 @@ The existing `score-rubric.mjs --file` generic offline math interface and output
 remain compatible. It is not the scoped evaluation entry point and must not be
 used as evidence of authoritative acceptance or authorized retrieval.
 
-Derivation: accepted WOIA Real Estate docs/21, docs/22, docs/24, docs/25 and
-docs/26 at coordination commit b716f1d1c0e2bc5ecf946043b337a2ddba4285f0.
 Those planning documents are provenance, not a runtime dependency.
