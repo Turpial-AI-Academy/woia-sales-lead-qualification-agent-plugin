@@ -1,6 +1,6 @@
 # woia-sales-lead-qualification
 
-WOIA Sales v0.5.6 provider for `sales.lead-qualification`.
+WOIA Sales v0.5.7 provider for `sales.lead-qualification`.
 
 - Primary skill: `$sales-lead-qualification`
 - Authoring profile: thin
